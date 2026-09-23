@@ -4,7 +4,7 @@
 
 Four crafters, one circle. CraftCircle WF quietly keeps a shared, always-up-to-date catalogue of every learned recipe across your whole crew — synced guild-wide over the addon channel, no server, no spreadsheet, no shouting in Discord. Open it, browse by category or search by name, hover for the real tooltip, and fire off a ready-made whisper with one click. It's the crafting order desk your guild never had to ask for.
 
-Target: WoW Forever 1.60.1.
+Target: WoW Forever 1.60.1. Wohoo!
 
 ## What it does
 
