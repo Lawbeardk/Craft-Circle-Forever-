@@ -84,3 +84,11 @@ Each client announces `character + revision + hash` on login, guild change, scan
 - Offline characters remain visible from cached copies held by peers.
 - Addon traffic is not authenticated. Data from guild peers is schema-checked, size-limited and hash-checked, but a deliberately modified client can still publish false data.
 - Cooldowns are synchronized as absolute `readyAt` timestamps without periodic countdown messages. This build preserves and distributes cooldown records, but WF-specific cooldown discovery may require an additional collector once its exact profession cooldown API is confirmed.
+
+### New in 0.7
+- Optional ChatThrottleLib integration with BULK, NORMAL, and ALERT priorities; the paced internal queue remains the fallback.
+- Profession-section change announcements reduce unnecessary comparison traffic while preserving verified record transfers.
+- Stable taxonomy and icons moved into `Categories.lua`.
+- Separate account-wide cooldown store in `CraftCircleWFDB.cooldowns`.
+- Persistent craft-request tracking in `CraftCircleWFDB.requests`; `/craftcircle requests` lists pending requests.
+- Repository issue templates, pull-request checklist, and `AGENTS.md` contributor guidance.
