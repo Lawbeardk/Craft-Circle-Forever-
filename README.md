@@ -1,5 +1,20 @@
 # CraftCircle WF 0.5.0
+Your guild's crafters, minus the "does anyone have a Silk Cloth spare and also can someone remind me who does enchants" spam.
+Four crafters, one circle. CraftCircle WF quietly keeps a shared, always-up-to-date catalogue of every learned recipe across your whole crew — synced guild-wide over the addon channel, no server, no spreadsheet, no shouting in Discord. Open it, browse by category or search by name, hover for the real tooltip, and fire off a ready-made whisper with one click. It's the crafting order desk your guild never had to ask for.
 
+What it does:
+See every recipe your whole circle knows, in one window. Each of you scans your own professions; everyone else's data shows up automatically, kept in sync guild-wide over the addon channel — no addon-store, no copy-pasting spreadsheets.
+Browse by category, not by scrolling forever. A collapsible tree on the left splits everything into Weapon → weapon type, Armor → material · slot ("Cloth · Wrist", "Plate · Chest"), Consumables, Trade Goods, and more, each with its own little icon. Click to drill in, click again to back out.
+Full text search on top of the category filter, so "who can make a mooncloth robe" is one search box away.
+Real item icons and tooltips. Hover any row for the genuine in-game tooltip — stats, binding, the works.
+Recipe names colored by item quality, once the data's loaded, so a rare or epic craft actually looks like one.
+"Requires Level" badges, with sort and filter. See the level requirement per item at a glance, filter to a min/max range, or sort the whole list by it.
+One-click "Request" whispers a real, clickable item link to the crafter — no more typing out item names by hand, and no more guessing which of five similarly-named recipes you meant.
+Enchants show up clean — no bogus icon or broken link on recipes that don't produce an item of their own.
+Crafters shown by first name only — no realm-tag clutter.
+Cooldown-aware sync carries profession cooldowns (e.g. Transmutes) across the guild as absolute ready-times, not countdown spam.
+UI Scale slider (50%–200%), remembered between sessions, so the window fits your screen and your eyesight.
+A minimap button, draggable around the ring AtlasLoot-style, so you're never hunting for the slash command.
 Target: WoW Forever 12.1.5.
 
 ## New in 0.5
