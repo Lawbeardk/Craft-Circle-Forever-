@@ -1,8 +1,8 @@
-## Interface: 120105
+## Interface: 16001
 ## Title: CraftCircle WF
-## Notes: Guild-synced profession recipe catalogue for WoW Forever 12.1.5
+## Notes: Guild-synced profession recipe catalogue for WoW Forever 1.60.1
 ## Author: Jonas & Copilot
-## Version: 0.3.0
+## Version: 0.5.0
 ## SavedVariables: CraftCircleWFDB, CraftCircleWFRemoteDB
 
 CraftCircleWF.lua

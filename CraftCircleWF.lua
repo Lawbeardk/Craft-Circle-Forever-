@@ -13,7 +13,7 @@ local function PlayerKey()
     return (name or "Unknown") .. "-" .. realm:gsub("%s+", "")
 end
 local function InitDB()
-    CraftCircleWFDB = CraftCircleWFDB or {schema=3, client="WF-12.1.5", characters={}, sync={}}
+    CraftCircleWFDB = CraftCircleWFDB or {schema=3, client="WF-1.60.1", characters={}, sync={}}
     CraftCircleWFRemoteDB = CraftCircleWFRemoteDB or {schema=3, characters={}}
     CraftCircleWFDB.characters = CraftCircleWFDB.characters or {}
     CraftCircleWFDB.sync = CraftCircleWFDB.sync or {}
