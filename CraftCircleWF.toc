@@ -2,7 +2,8 @@
 ## Title: CraftCircle WF
 ## Notes: Guild-synced profession recipe catalogue for WoW Forever 1.60.1
 ## Author: Jonas & Copilot
-## Version: 0.5.0
+## Version: 0.8.0
 ## SavedVariables: CraftCircleWFDB, CraftCircleWFRemoteDB
 
+Categories.lua
 CraftCircleWF.lua
